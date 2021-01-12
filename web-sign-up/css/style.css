@@ -1,0 +1,63 @@
+.ct-indx .row img {
+    width: 16rem;
+    height: auto;
+}
+
+.mrgn {
+    margin-top: 7rem;
+}
+
+footer {
+    background-color: #f8f9fa;
+}
+
+/* alignment for the image so it can be centered */
+.vertical-alignment {
+    min-height: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+}
+
+/* responsive min width for size of cards and footer options */
+@media(min-width: 62rem) {
+
+    .mrgn {
+        margin-top: 10rem;
+    }
+
+    .standard-card {
+        margin-top: 8.125rem;
+    }
+
+    .free-card {
+        margin-top: 14.25rem;
+    }
+
+    .premium-card {
+        margin-top: 2rem;
+    }
+
+    .ft-options {
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    footer p {
+        color: white;
+    }
+
+    .sgn-up p {
+        color: #212529;
+    }
+}
+
+/* responsive size to display the background image for the sign up page */
+@media(min-width: 75rem) {
+    main {
+        background-image: url('../img/bg-signup.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
+/* had to make this comments because I made a mistake tagging an user called docs... sorry */
